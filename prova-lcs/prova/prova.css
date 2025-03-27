@@ -1,0 +1,118 @@
+.background{
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+.background video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header{
+display: flex;  
+align-items: center;
+justify-content: space-between;
+padding: 13px 55px 13px 55px;
+ 
+}
+.lg{
+    height: 90px;
+    width: 90px;
+}
+.cp{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul,li{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-decoration: white;
+}
+.rdsscs{
+   display: flex;
+    gap: 10px;
+    height: 40px;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+p{
+color: white;
+width: 500px;
+}
+.logo img{
+    width: 500px;
+}
+button{
+    background-color: #DDD; 
+    border: none;
+    color: black;
+    padding: 20px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #3e8e41;
+    color: white;
+}
+
+button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+button.ass{
+    animation: alternate;
+border-bottom-color: #920000;
+background-color: rgba(175, 0, 0, 0.616);
+padding: 20px;
+border-radius: 1px;
+}
+button.ass {
+    background-color: #920000; 
+    color: black; 
+    border: 2px solid black;
+}  
+button.ass:hover{
+    background-color: #b1000088;
+    color: white;
+
+}
+button.compra{
+    animation: alternate;
+border-bottom-color: rgb(16, 136, 0);
+background-color: rgba(0, 173, 29, 0.589);
+padding: 20px;
+border-radius: 1px;
+}
+button.compra {
+    background-color: #3e8e41; 
+    color: black; 
+    border: 2px solid black;
+}  
+button.compra:hover {
+    background-color: #00b11d88;
+    color: white;
+}
+
+.background::after{
+    content:"" ;
+    inset: 0;
+    position: fixed;
+    background: linear-gradient(109deg , rgba(10,12,16,0.99)15% rgba(10,12,16,0.7)50%,rgba(10,12,16,0.99)85%);
+}
